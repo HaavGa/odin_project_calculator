@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body
+    class="min-h-screen flex flex-col justify-center items-center bg-gray-400"
+  >
+    <h1 class="text-4xl font-bold">Calculator</h1>
+    <p class="my-3 text-lg">
+      The Odin Project - Foundations Last Project
+    </p>
+    <div id="calculator" class="bg-black text-white p-3 rounded-lg">
+      <div
+        id="display"
+        class="w-full bg-white text-4xl flex items-center px-3 text-black h-14 rounded-lg mb-5"
+      ></div>
+      <div class="grid grid-cols-4 grid-rows-4 gap-3">
+        <button id="btn-7" class="btn btn-number">7</button>
+        <button id="btn-8" class="btn btn-number">8</button>
+        <button id="btn-9" class="btn btn-number">9</button>
+        <button id="btn-divide" class="btn btn-operand">÷</button>
+        <button id="btn-4" class="btn btn-number">4</button>
+        <button id="btn-5" class="btn btn-number">5</button>
+        <button id="btn-6" class="btn btn-number">6</button>
+        <button id="btn-multiply" class="btn btn-operand">×</button>
+        <button id="btn-1" class="btn btn-number">1</button>
+        <button id="btn-2" class="btn btn-number">2</button>
+        <button id="btn-3" class="btn btn-number">3</button>
+        <button id="btn-subtract" class="btn btn-operand">-</button>
+        <button id="btn-clear" class="btn btn-operand">C</button>
+        <button id="btn-0" class="btn btn-number">0</button>
+        <button id="btn-equals" class="btn btn-operand">=</button>
+        <button id="btn-add" class="btn btn-operand">+</button>
+      </div>
+    </div>
+    <p>Source Code</p>
+    <a href=""></a>
+  </body>
+</html>
